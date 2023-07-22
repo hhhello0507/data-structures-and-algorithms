@@ -49,17 +49,11 @@ cmake_ninja_workdir = /Users/dgsw8th71/Desktop/develop/data$ structures$ and$ al
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/ring_queue/IntQueue.c.o: C_COMPILER__untitled_Debug /Users/dgsw8th71/Desktop/develop/data$ structures$ and$ algorithms/c/ring_queue/IntQueue.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/ring_queue/IntQueue.c.o.d
+build CMakeFiles/untitled.dir/eight_queen/queen_complete.c.o: C_COMPILER__untitled_Debug /Users/dgsw8th71/Desktop/develop/data$ structures$ and$ algorithms/c/eight_queen/queen_complete.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/eight_queen/queen_complete.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/ring_queue
-
-build CMakeFiles/untitled.dir/ring_queue/main.c.o: C_COMPILER__untitled_Debug /Users/dgsw8th71/Desktop/develop/data$ structures$ and$ algorithms/c/ring_queue/main.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/ring_queue/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/ring_queue
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/eight_queen
 
 
 # =============================================================================
@@ -69,7 +63,7 @@ build CMakeFiles/untitled.dir/ring_queue/main.c.o: C_COMPILER__untitled_Debug /U
 #############################################
 # Link the executable untitled
 
-build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/ring_queue/IntQueue.c.o CMakeFiles/untitled.dir/ring_queue/main.c.o
+build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/eight_queen/queen_complete.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
