@@ -3,4 +3,4 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled eight_queen/queen_complete.c)
+add_executable(untitled sort/select_sort.c)

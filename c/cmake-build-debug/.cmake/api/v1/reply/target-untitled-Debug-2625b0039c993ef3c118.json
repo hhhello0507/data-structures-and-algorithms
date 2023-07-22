@@ -94,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "eight_queen/queen_complete.c",
+			"path" : "sort/select_sort.c",
 			"sourceGroupIndex" : 0
 		}
 	],
