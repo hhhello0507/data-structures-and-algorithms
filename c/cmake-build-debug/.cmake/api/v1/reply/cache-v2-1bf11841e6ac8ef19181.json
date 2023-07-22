@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/dgsw8th71/CLionProjects/untitled/cmake-build-debug"
+			"value" : "/Users/dgsw8th71/Desktop/develop/data structures and algorithms/c/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/dgsw8th71/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/dgsw8th71/Desktop/develop/data structures and algorithms/c/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/dgsw8th71/CLionProjects/untitled"
+			"value" : "/Users/dgsw8th71/Desktop/develop/data structures and algorithms/c"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/dgsw8th71/CLionProjects/untitled/cmake-build-debug"
+			"value" : "/Users/dgsw8th71/Desktop/develop/data structures and algorithms/c/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/dgsw8th71/CLionProjects/untitled"
+			"value" : "/Users/dgsw8th71/Desktop/develop/data structures and algorithms/c"
 		}
 	],
 	"kind" : "cache",
