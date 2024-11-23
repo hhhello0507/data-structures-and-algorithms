@@ -1,16 +1,16 @@
-n = 11
+N = 11
 id = 0 # 노드 별 고유키
-d = [0 for _ in range(n)]
-v = [False for _ in range(n)] # 종료(방문) 여부
-a = [[] for _ in range(n)] # idx: 노드, i: 그 노드의 인접노드
+d = [0 for _ in range(N)]
+v = [False for _ in range(N)] # 종료(방문) 여부
+a = [[] for _ in range(N)] # idx: 노드, i: 그 노드의 인접노드
 SCC = [] # SCC 
-s = [] # 스택
+S = [] # 스택
 
 def dfs(x):
     global id
     id += 1
     d[x] = id
-    s.append(x)
+    S.append(x)
 
     parent = d[x]
     for i in a[x]:
@@ -23,7 +23,7 @@ def dfs(x):
         scc = []
         # SCC에 삽입 후 한꺼번에 종료(방문) 처리
         while True:
-            t = s.pop()
+            t = S.pop()
             scc.append(t)
             v[t] = True
             if t == x:
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     a[10].append(7)
 
     # 모든 노드 중 진입차수가 0인 노드를 찾아 dfs 수행
-    for i in range(n):
+    for i in range(N):
         if d[i] == 0:
             dfs(i)
         
